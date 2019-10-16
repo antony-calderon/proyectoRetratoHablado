@@ -7,7 +7,7 @@ public class proyecto {
 
 		codigo c = new codigo();
 		c.setVisible(true);
-		c.setPreferredSize(new Dimension(400,600));
+		c.setPreferredSize(new Dimension(850,500));
 		c.pack();
 		c.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

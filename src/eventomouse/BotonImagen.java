@@ -6,18 +6,14 @@ import java.awt.event.MouseMotionListener;
 import javax.swing.JButton;
 
 
-public class boton extends JButton implements MouseMotionListener{
+public class BotonImagen extends JButton implements MouseMotionListener{
 
-    public boton(String text){
-		super.setText(text);
-	
+    public BotonImagen(String text){
+		//super.setText(text);
 		setContentAreaFilled(false);
-		
-		Dimension tamano = getPreferredSize();
-	    tamano.width = tamano.height = Math.max( tamano.width,tamano.height );
-	    setPreferredSize( tamano );
-	    
-	    
+		/*Dimension tamano = getPreferredSize();
+                tamano.width = tamano.height = Math.max( tamano.width,tamano.height );
+                setPreferredSize( tamano );*/
 		addMouseMotionListener(this);
 
 	}
